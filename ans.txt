@@ -1,0 +1,22 @@
+3. git clone https://github.com/ryta2670/Lab.git
+4. 
+echo "# Lab" >> README.md
+echo "Ryan Tate" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+
+
+
+5. git add ans.txt
+git commit -m "2 commit"
+
+
+6.git tag -l "v0.0.1"
+
+7. 
+git remote add origin https://github.com/ryta2670/Lab.git
+git push --tags
+git push -u origin master
+
+8. git checkout -b testing-new-files
